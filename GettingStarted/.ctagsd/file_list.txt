@@ -1,0 +1,1 @@
+/home/nam/Desktop/C-/GettingStarted/InputSimpleNumber/main.cpp

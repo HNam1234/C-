@@ -3,12 +3,12 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=InputSimpleNumber
+ProjectName            :=VariableAndConstants
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
 WorkspacePath          :=/home/nam/Desktop/C-/GettingStarted
-ProjectPath            :=/home/nam/Desktop/C-/GettingStarted/InputSimpleNumber
-IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/InputSimpleNumber
+ProjectPath            :=/home/nam/Desktop/C-/GettingStarted/VariableAndConstants
+IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/VariableAndConstants
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
@@ -94,7 +94,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp $(IntermediateDirectory)/main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/nam/Desktop/C-/GettingStarted/InputSimpleNumber/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/nam/Desktop/C-/GettingStarted/VariableAndConstants/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(DependSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
 
